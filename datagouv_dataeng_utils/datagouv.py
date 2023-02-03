@@ -2,7 +2,7 @@ from typing import Union, List, Optional, TypedDict
 import requests
 import os
 
-DATAGOUV_URL = "https://demo.data.gouv.fr"
+DATAGOUV_URL = "https://www.data.gouv.fr"
 
 class File(TypedDict):
     dest_name: str
